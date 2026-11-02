@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "touretanvo-quantize_jd070"
+name = "touretanvo-synthetic_data_quality_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出量化与稀疏化研究员·合成数据的质量分水岭上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://touretanvo.github.io"
-Repository = "https://github.com/touretanvo/quantize_jd070"
-Issues = "https://github.com/touretanvo/quantize_jd070/issues"
+Repository = "https://github.com/touretanvo/synthetic_data_quality_grouping"
+Issues = "https://github.com/touretanvo/synthetic_data_quality_grouping/issues"
 
 [project.scripts]
-quantize_jd070 = "quantize_jd070:main"
+synthetic_data_quality_grouping = "synthetic_data_quality_grouping:main"
 
 [tool.setuptools]
-py-modules = ["quantize_jd070"]
+py-modules = ["synthetic_data_quality_grouping"]

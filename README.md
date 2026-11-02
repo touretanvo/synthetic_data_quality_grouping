@@ -1,11 +1,11 @@
-# quantize_jd070
+# synthetic_data_quality_grouping
 
 **把量化与稀疏化研究员·合成数据的质量分水岭归并成组并标出每组的代表项。**
 
-`quantize_jd070` —— 按结构键把条目聚类，标出量化与稀疏化研究员·合成数据的质量分水岭上的同组项与各组的代表样本
+`synthetic_data_quality_grouping` —— 按结构键把条目聚类，标出量化与稀疏化研究员·合成数据的质量分水岭上的同组项与各组的代表样本
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`quantize_jd070.py` 拷走就能用
+- 单文件，`synthetic_data_quality_grouping.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install touretanvo-quantize_jd070
+pip install touretanvo-synthetic_data_quality_grouping
 ```
 
 装完直接用命令名调用：
 
 ```bash
-quantize_jd070 --help
+synthetic_data_quality_grouping --help
 ```
 
-也可以不用安装，直接把 `quantize_jd070.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `synthetic_data_quality_grouping.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ quantize_jd070 --help
 ## 用法
 
 ```bash
-python quantize_jd070.py --file input.txt
-python quantize_jd070.py --text "示例内容"
-python quantize_jd070.py --file input.txt --json
+python synthetic_data_quality_grouping.py --file input.txt
+python synthetic_data_quality_grouping.py --text "示例内容"
+python synthetic_data_quality_grouping.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python quantize_jd070.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_quantize_jd070.py
+python test_synthetic_data_quality_grouping.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_quantize_jd070.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/touretanvo/quantize_jd070>
+- GitHub 仓库：<https://github.com/touretanvo/synthetic_data_quality_grouping>
 
 ---
 
@@ -79,7 +79,7 @@ python test_quantize_jd070.py
 touretanvo 做量化与稀疏化研究员·合成数据的质量分水岭相关的问题，方向对标阶跃星辰的中级量化与稀疏化研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://touretanvo.github.io>
-- 仓库：<https://github.com/touretanvo/quantize_jd070>
+- 仓库：<https://github.com/touretanvo/synthetic_data_quality_grouping>
 
 ## 许可
 
